@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}  
+#header
+{
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#header h1
+{
+    color: white;
+    font-size: 6rem;
+    margin: 15px auto;
+}
+#header img
+{
+    width: 15%;
+}
+a
+{
+    margin: 0 10px;
+}
+#menu
+{
+    width: fit-content;
+    margin: 0px auto 50px auto;
+    padding: 4px;
+}
+#acceuil 
+{
+    background-color: #a8d2f7;;
+    width: 60%;
+    margin: auto;
+}
+#acceuil p
+{
+   margin: 5px;
+   text-align: center;
+   font-size: 0.8rem;
+}
+#inscription
+{
+    background-color: #a8d2f7;
+    width: 60%;
+    margin: auto;
+}
+#inscription h2
+{
+    text-align: center;
+}
+#tableau
+{
+    background-color:#a8d2f7;;
+    width: 60%;
+    margin: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #ffffff;
+  }
+  tr:nth-child(even) {
+    background-color: #8b8b8b;
+  }
+  tr:nth-child(odd) {
+    background-color: #cfcfcf;
+  }
+  fieldset {
+    background-color: #a8d2f7;
+    padding: 10px;
+    height: 250px;
+  }
+  #select_jeux {
+    display: block;
+    margin-top: 10px;
+  }
+  
+ #article
+ {
+    background-color:#a8d2f7;;
+    width: 60%;
+    margin: auto;
+ }
+ #article img
+ {
+    width: 20%;
+    margin-left: 100px;
+
+ }
+ #article h1
+ {
+    text-align: center;
+ }
+ #article h2
+ {
+    text-align: center;
+
+ }
+ #vidéo
+ {
+    background-color: #a8d2f7;;
+    width: 60%;
+    margin: auto;
+ }
+ #vidéo h1
+ {
+    text-align: center;
+ }
+ #vidéo p
+ {
+    text-align: center;
+ }
+ #vidéo video
+ {
+    margin-left: 150px;
+ }
+ #galerie
+ {
+    background-color:#a8d2f7;
+    width: 60%;
+    margin: auto;
+ }
+ #galerie img
+ {
+    width: 30%;
+    margin-left: 150px;
+ }
+
